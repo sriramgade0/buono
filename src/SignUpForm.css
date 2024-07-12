@@ -1,0 +1,95 @@
+/* Container for the sign-up form */
+.sign-up-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Heading style */
+.sign-up-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Form element arrangement */
+.sign-up-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label style */
+.sign-up-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+  text-align: left;
+}
+
+/* Input field styling */
+.sign-up-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Input field focus effect */
+.sign-up-form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Submit button styling */
+.sign-up-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* Submit button hover effect */
+.sign-up-form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Back button styling */
+.sign-up-form button[type="button"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* Back button hover effect */
+.sign-up-form button[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styling */
+.error-message {
+  color: #e74c3c;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
